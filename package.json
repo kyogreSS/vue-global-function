@@ -2,9 +2,11 @@
   "name": "vue-global-function",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel ./index.js --presets babel-preset-es2015 --out-dir ./dist",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
