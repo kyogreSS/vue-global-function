@@ -1,0 +1,31 @@
+{
+  "name": "vue-global-function",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyogreSS/vue-global-function.git"
+  },
+  "author": "kyogre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyogreSS/vue-global-function/issues"
+  },
+  "homepage": "https://github.com/kyogreSS/vue-global-function#readme",
+  "dependencies": {
+    "babel-runtime": "^6.26.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
